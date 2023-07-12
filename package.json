@@ -1,0 +1,29 @@
+{
+  "name": "@fab/ui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.ts",
+  "files": [
+    "src/**/*"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Fables7/UI.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Fables7/UI/issues"},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Fabien",
+  "license": "ISC",
+  "devDependencies": {
+    "@tsconfig/recommended": "^1.0.2",
+    "@types/styled-components": "^5.1.26"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "styled-components": "^6.0.3",
+    "typescript": "^5.1.6"
+  }
+}
