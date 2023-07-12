@@ -1,23 +1,29 @@
 {
   "name": "@fab/ui",
-  "version": "1.0.0",
+  "version": "0.0.0-development",
   "description": "",
   "main": "src/index.ts",
   "files": [
     "src/**/*"
   ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "semantic-release": "semantic-release"
   },
   "author": "Fabien",
   "license": "ISC",
   "devDependencies": {
     "@tsconfig/recommended": "^1.0.2",
-    "@types/styled-components": "^5.1.26"
+    "@types/styled-components": "^5.1.26",
+    "semantic-release": "^21.0.7"
   },
   "dependencies": {
     "react": "^18.2.0",
     "styled-components": "^6.0.3",
     "typescript": "^5.1.6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Fables7/FabUI.git"
   }
 }
